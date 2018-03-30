@@ -33,7 +33,10 @@
   "oclif": {
     "devPlugins": [
       "@oclif/plugin-help"
-    ]
+    ],
+    "hooks": {
+      "init": "./lib"
+    }
   },
   "repository": "JuanCaicedo/no-stdout-epipe-errors",
   "scripts": {
